@@ -19,21 +19,23 @@ namespace programacionII_estadistica
 
         private void btnConvertir_Click(object sender, EventArgs e)
         {
-          public class
-   Conversaciones
-        {
-           public char[] 
-            conversor  = { }
+        }
+        public char[]
+         conversor = { }
              new char[] { " Dolares " , " Colones Sv " , " Yenes " , " Rupia " , " Peso Chileno " , " Peso MX " , "Peso Argentino", "Bitcoin"}; // monedas
            }
-        double[][] valores = {
+    double[][] valores = {
 
-        new double [] { 1 , 8.75 , 111.27 , 69.75 , 667.08 , 19.36,39.69,0.00026 },
-          
-public double conver(int opcion, int de, int a, double cantidad)
-{
-    return valores[opcion][a] / valores[opcion][de] * cantidad;
-
-}
+        new double [] { 1 , 8.75 , 111.27 , 69.75 , 667.08 , 19.36,39.69,0.00026, },
     }
+
+
+public double conversion (int opcion, int de, int a, double cantidad)
+    {
+        return valor [opcion][a] / valor [opcion][de] * cantidad; }
+    public class
+  { }
+       
+
 }
+    
