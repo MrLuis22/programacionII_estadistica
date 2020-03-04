@@ -49,7 +49,7 @@
             this.txtserie.Name = "txtserie";
             this.txtserie.Size = new System.Drawing.Size(184, 20);
             this.txtserie.TabIndex = 1;
-            this.txtserie.TextChanged += new System.EventHandler(this.txtserie_TextChanged);
+           
             // 
             // btnMediaAritmetica
             // 

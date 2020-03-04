@@ -24,13 +24,13 @@ namespace programacionII_estadistica
          conversor = { }
              new char[] { " Dolares " , " Colones Sv " , " Yenes " , " Rupia " , " Peso Chileno " , " Peso MX " , "Peso Argentino", "Bitcoin"}; // monedas
            }
-    double[][] valores = {
+    double[][] valor = { 
 
         new double [] { 1 , 8.75 , 111.27 , 69.75 , 667.08 , 19.36,39.69,0.00026, },
     }
 
 
-public double conversion (int opcion, int de, int a, double cantidad)
+public double con(int opcion, int de, int a, double cantidad)
     {
         return valor [opcion][a] / valor [opcion][de] * cantidad; }
     public class
