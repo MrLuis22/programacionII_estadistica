@@ -10,21 +10,16 @@ using System.Windows.Forms;
 
 namespace programacionII_estadistica
 {
-    public partial class Form1 : Form
+    public partial class Guevara_Luis_Parcial : Form
     {
-        public Form1()
+        public Guevara_Luis_Parcial()
         {
             InitializeComponent();
         }
 
-        private void btnMediaAritmetica_Click(object sender, EventArgs e)
+        private void btnConvertir_Click(object sender, EventArgs e)
         {
-
-        }
-
-        private void txtserie_TextChanged(object sender, EventArgs e)
-        {
-
+           public double 
         }
     }
 }

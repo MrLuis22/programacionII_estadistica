@@ -49,6 +49,7 @@
             this.txtserie.Name = "txtserie";
             this.txtserie.Size = new System.Drawing.Size(184, 20);
             this.txtserie.TabIndex = 1;
+            this.txtserie.TextChanged += new System.EventHandler(this.txtserie_TextChanged);
             // 
             // btnMediaAritmetica
             // 
@@ -58,6 +59,7 @@
             this.btnMediaAritmetica.TabIndex = 2;
             this.btnMediaAritmetica.Text = "Calcular X";
             this.btnMediaAritmetica.UseVisualStyleBackColor = true;
+            this.btnMediaAritmetica.Click += new System.EventHandler(this.btnMediaAritmetica_Click);
             // 
             // lblrespuesta_serie
             // 
